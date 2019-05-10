@@ -47,6 +47,7 @@ public class AddFriendsActivity extends BaseActivity implements TextWatcher, Add
         init();
     }
 
+
     public void init() {
         mRegisterHelper = new RegisterDataHelper(this);
         mPresenter = new AddFriendsPresenterImp(this);
